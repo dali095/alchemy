@@ -18,7 +18,7 @@ import com.likethecolor.alchemy.api.params.Params;
 public class Test {
 
 	public static void main(String[] args) {
-		final String apiKey = "cfb3edd593d3aceea6fc58366416cadf45bb003c";
+		final String apiKey = "";
 		final Client client = new Client(apiKey);
 
 		SentimentCall sCall = new SentimentCall(new CallTypeUrl("http://abcnews.go.com/Technology/god-particle-higgs-boson-year/story?id=19574423"));
